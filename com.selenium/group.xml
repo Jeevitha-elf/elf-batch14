@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups> <run> <include name="Adhoc"></include> </run></groups>
+    <classes>
+      <class name="groupExecution.TC_2Test"/>
+      <class name="groupExecution.TC_3Test"/>
+      <class name="groupExecution.TC_1Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
