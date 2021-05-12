@@ -1,0 +1,6 @@
+send("admin")
+sleep("1000")
+Send("{Tab}")
+send("admin")
+sleep("1000")
+send("{Enter}")

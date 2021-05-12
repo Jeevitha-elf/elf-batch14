@@ -1,0 +1,5 @@
+Send("{Tab}")
+Send("{Enter}")
+Sleep("1000")
+Send("{Tab}")
+Send("{Enter}")
